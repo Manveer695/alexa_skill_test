@@ -1,15 +1,24 @@
 {
-  "name": "test_skill",
+  "name": "alexa_skill_test",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manveer695/alexa_skill_test.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manveer695/alexa_skill/issues"
+  },
+  "homepage": "https://github.com/Manveer695/alexa_skill#readme",
   "dependencies": {
+    "alexa-app": "^4.1.0",
     "alexa-app-server": "^3.0.1"
   }
 }
