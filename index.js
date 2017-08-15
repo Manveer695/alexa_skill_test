@@ -8,7 +8,7 @@ app.launch( function( request, response ) {
 	response.say( 'Welcome to your test skill' ).reprompt( 'Way to go. You got it to run. Bad ass.' ).shouldEndSession( false );
 } );
 
-app.error = function( exception, request, response ) {
+app.error = function(exception, request, response ) {
 	console.log(exception)
 	console.log(request);
 	console.log(response);	
